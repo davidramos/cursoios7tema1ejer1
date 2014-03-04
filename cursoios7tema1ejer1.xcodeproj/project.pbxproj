@@ -21,6 +21,7 @@
 		635A6CF718C69570005F6CBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635A6CD918C69570005F6CBD /* UIKit.framework */; };
 		635A6CFF18C69570005F6CBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 635A6CFD18C69570005F6CBD /* InfoPlist.strings */; };
 		635A6D0118C69570005F6CBD /* cursoios7tema1ejer1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 635A6D0018C69570005F6CBD /* cursoios7tema1ejer1Tests.m */; };
+		635A6D0C18C69789005F6CBD /* NewClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 635A6D0B18C69789005F6CBD /* NewClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		635A6CFC18C69570005F6CBD /* cursoios7tema1ejer1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cursoios7tema1ejer1Tests-Info.plist"; sourceTree = "<group>"; };
 		635A6CFE18C69570005F6CBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		635A6D0018C69570005F6CBD /* cursoios7tema1ejer1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cursoios7tema1ejer1Tests.m; sourceTree = "<group>"; };
+		635A6D0A18C69789005F6CBD /* NewClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewClass.h; sourceTree = "<group>"; };
+		635A6D0B18C69789005F6CBD /* NewClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				635A6CEB18C69570005F6CBD /* ViewController.m */,
 				635A6CED18C69570005F6CBD /* Images.xcassets */,
 				635A6CDC18C69570005F6CBD /* Supporting Files */,
+				635A6D0A18C69789005F6CBD /* NewClass.h */,
+				635A6D0B18C69789005F6CBD /* NewClass.m */,
 			);
 			path = cursoios7tema1ejer1;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				635A6CEC18C69570005F6CBD /* ViewController.m in Sources */,
+				635A6D0C18C69789005F6CBD /* NewClass.m in Sources */,
 				635A6CE618C69570005F6CBD /* AppDelegate.m in Sources */,
 				635A6CE218C69570005F6CBD /* main.m in Sources */,
 			);
